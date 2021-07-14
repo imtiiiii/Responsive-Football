@@ -40,12 +40,25 @@ header
     padding: 20px 24px;
     font-size: 16px;
 }
+.watch-button i
+{
+    font-size:16px;
+    color: white;
+
+}
 .heading-image
 {
     
     padding: 100px;
     
+   
 
+}
+.heading-image:hover img
+{
+    transform: rotate(380deg);
+    
+    transition: 1s;
 }
 
 .heading-image img
@@ -98,7 +111,7 @@ main
 .news
 {
     display: grid;
-    grid-template-columns: repeat(3,400px);
+    grid-template-columns: repeat(3,auto);
     grid-gap:30px;
     
 }
