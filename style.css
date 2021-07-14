@@ -54,7 +54,7 @@ header
     
 }
 /*   header end */
-/* player start */
+/* players start */
 .players
 {
     display: grid;
@@ -80,4 +80,12 @@ header
 {
     text-align: justify;
 }
-/* player end */
+/* players end */
+
+/* footer start */
+.logo img
+{
+    width: 483px;
+    height: 110px;
+}
+/* footer end */
