@@ -55,6 +55,12 @@ header
 }
 /*   header end */
 /* player start */
+.players
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+}
 .player
 {
     width: 330px;
