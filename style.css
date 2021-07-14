@@ -53,3 +53,16 @@ header
     height: 438px;
     
 }
+/*   header end */
+/* player start */
+.player
+{
+    width: 330px;
+    height: 474px;
+    border:3px solid red;
+}
+.player-image img
+{
+    width: 100%;
+}
+/* player end */
