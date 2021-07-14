@@ -21,6 +21,8 @@ header
 .heading-title
 {
     
+    
+    padding: 150px;
 }
 .title
 {
@@ -34,10 +36,20 @@ header
     background-color:#E02C6D ;
     width: 168px;
     height: 44px;
-    padding: 10px 24px;
+    padding: 20px 24px;
+    font-size: 16px;
 }
+.heading-image
+{
+    
+    padding: 100px;
+    
+
+}
+
 .heading-image img
 {
     width: 556.01px;
     height: 438px;
+    
 }
