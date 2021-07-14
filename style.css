@@ -62,7 +62,7 @@ main
     justify-content: center;
     align-items: center;
 }
-/* players start */
+/* --------------------------players start */
 .players
 {
     display: grid;
@@ -186,3 +186,22 @@ footer
    
 }
 /* footer end */
+
+@media only screen and (max-width:688px)
+{
+    header
+    {
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 688px;
+        height: 100%;
+    }
+    .players,.news
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
+}
