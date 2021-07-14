@@ -60,6 +60,8 @@ header
     width: 330px;
     height: 474px;
     border:3px solid red;
+    display: flex;
+    flex-direction: column;
 }
 .player-image img
 {
