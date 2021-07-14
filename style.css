@@ -83,9 +83,35 @@ header
 /* players end */
 
 /* footer start */
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 158px;
+    margin-bottom: 63px;
+}
 .logo img
 {
     width: 483px;
     height: 110px;
+}
+.social-media
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.social-media a
+{
+    padding-right: 14px;
+}
+.social-icon
+{
+   
+  font-size: 32px;
+  color:gray;
+   
 }
 /* footer end */
