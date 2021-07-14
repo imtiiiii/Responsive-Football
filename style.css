@@ -9,7 +9,7 @@ body
     font-family: 'Poppins', sans-serif;
     background-color: white;
 }
-/*   header start */
+/*  --------------- header start------------- */
 header
 {
     background-color: #2D25A0;
@@ -54,7 +54,7 @@ header
     height: 438px;
     
 }
-/*   header end */
+/*                      header end */
 main
 {
     display: flex;
@@ -92,17 +92,14 @@ main
 /* Event news start */
 .event-news
 {
-    margin: 80px 0;
+    margin: 60px 0 100px 0px;
     
 }
 .news
 {
     display: grid;
     grid-template-columns: repeat(3,400px);
-    
     grid-gap:30px;
-    
-    
     
 }
 .event-title
@@ -123,18 +120,20 @@ main
     width: 300px;
     height: 200px;
 }
-/* Event news end */
-
+/* ----------------------Event news end ----------------*/
+  /* join us start */
 .join-us
 {
     padding-top:50px;
-    background-color: gray;
+    background-color:whitesmoke;
     padding: 20px 20px 20px 20px;
+    box-shadow: 10px 10px 30px gray;
 }
 .join-us h1
 {
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .join-container
@@ -150,7 +149,7 @@ main
     border-radius: 5px;
     width: 500px;
 }
-
+/* join us end */
 
 
 
